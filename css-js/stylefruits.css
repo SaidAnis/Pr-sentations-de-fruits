@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter|Quicksand|Rasa');
+/* font-family: 'Bitter', serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Rasa', serif; */
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+
+/* ************** HEADER **************** */
+
+header {
+    background-color: #196307;
+    text-align: center;
+    padding: 30px;
+    
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: 400;
+    font-family: 'Rasa', serif;
+    line-height: 34px;
+    color: white;
+}
+
+p {
+    font-size: .8em;
+}
+
+/* ************** SECTION **************** */
+
+section {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainImage {
+    position: absolute;
+}
+
+.resumDiv {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+}
+
+.opacityDiv {
+    width: 40%;
+    height: 400px;
+    background: black;
+    padding: 20px;
+    opacity: 0.6;
+    text-align: left;
+}
+
+.resumDate {
+    margin-top: 20px;
+    color: white;
+}
+
+.resumParagraph {
+    margin-top: 20px;
+    color: white;
+    font-size: 1em;
+    line-height: 24px;
+}
+
+h2 {
+    margin-top: 10px;
+    font-size: 1.8em;
+    font-family: 'Rasa', serif;
+    font-weight: 400;
+    color: white;
+}
+
+hr {
+    margin-top: 20px;
+    width: 100px;
+    height: 2px;
+    border-color: #196307;
+}
+
+/* ************* MENU IMAGE ************************ */
+
+
+
+.itemDiv {
+    width: 1000px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.itemImage {
+    width: 150px;
+    height: 150px;
+    border: solid white;
+    margin-right: 20px;
+    transition: .5s ease;
+}
+
+.itemImage:hover {
+    opacity: 0.6;
+    cursor: pointer;
+    border: solid #196307;
+}
+
+.itemParagraph {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+/** ---------------------------------------------------------- */
+
+@media screen and (max-width: 700px) {
+
+    body {
+        line-height: 20px;
+    }
+
+    header {
+        background-color: #196307;
+        text-align: center;
+        padding: 20px;
+        width: 100%;
+        
+    }
+
+    h1 {
+        font-size: 1.5em;
+        font-weight: 100;
+        line-height: 20px;
+        margin-top: 10px;
+    }
+
+    h2 {
+        margin-top: 10px;
+        font-size: 1.2em;
+        font-family: 'Rasa', serif;
+        font-weight: 400;
+    }
+
+    .resumDate {
+        margin-top: 5px;
+    }
+    
+
+    .resumParagraph {
+        font-size: .7em;
+        line-height: 17px;
+    }
+
+    .mainImage {
+        position: absolute;
+        width: 100%;
+        height: 250px;
+    }
+
+
+    .opacityDiv  {
+        width: 100%;
+        height: 250px;
+    }
+
+    section {
+        width: 100%;
+    }
+
+
+    .itemDiv {
+        width: 100%;
+        padding: 10px;
+        margin-top: 10px;
+
+    }
+    
+    .itemImage {
+        width: 140px;
+        height: 120px;
+    }
+
+}
+
+/* -------------------------------------------------- */
+@media screen and (min-width: 701px) and (max-width: 900px) {
+    body {
+        line-height: 20px;
+    }
+
+    header {
+        background-color: #196307;
+        text-align: center;
+        padding: 20px;
+        width: 100%;
+        
+    }
+
+    h1 {
+        font-size: 1.7em;
+        font-weight: 100;
+        line-height: 20px;
+        margin-top: 10px;
+    }
+
+    h2 {
+        margin-top: 10px;
+        font-size: 1.5em;
+        font-family: 'Rasa', serif;
+        font-weight: 400;
+    }
+
+    .resumParagraph {
+        font-size: .9em;
+        line-height: 20px;
+    }
+
+    .resumDate {
+        margin-top: 5px;
+    }
+
+    .mainImage {
+        position: absolute;
+        width: 100%;
+        height: 320px;
+    }
+
+
+    .opacityDiv  {
+        width: 50%;
+        height: 320px;
+    }
+
+    section {
+        width: 100%;
+    }
+
+    .itemDiv {
+        width: 100%;
+        padding: 10px;
+        margin-top: 10px;
+
+    }
+    
+    .itemImage {
+        width: 140px;
+        height: 120px;
+    }
+
+}
